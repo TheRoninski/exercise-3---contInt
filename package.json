@@ -1,6 +1,6 @@
 {
   "name": "@roninski/password-utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small js library that provides password utility functions",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
