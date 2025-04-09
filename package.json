@@ -1,0 +1,19 @@
+{
+  "name": "@roninski/password-utilities",
+  "version": "1.0.0",
+  "description": "A small js library that provides password utility functions",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "microbundle"
+  },
+  "author": "if22b080 + if22b208",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "microbundle": "^0.15.1"
+  }
+}
