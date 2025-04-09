@@ -7,7 +7,9 @@
   "module": "dist/index.m.js",
   "source": "src/index.js",
   "scripts": {
-    "build": "microbundle"
+    "build": "microbundle",
+    "pretest": "npm run build",
+    "test": "npx jest --coverage"
   },
   "author": "if22b080 + if22b208",
   "license": "MIT",
